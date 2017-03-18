@@ -1,0 +1,283 @@
+body {
+	background-image: url("http://wallpaper-gallery.net/images/background-image/background-image-23.jpg");
+	background-size: cover;
+   	background-repeat:repeat;
+	color: #777777;
+	height: 100%
+}
+
+p, li, label, input, button{
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+header {
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 3px solid #cccccc;
+	opacity: 0.8;
+}
+
+.header {
+	width: 960px;
+	margin: 0 auto;
+	height: 80px;
+	position: relative;
+}
+
+h1, h2, h3, h4 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+
+h1 {
+	padding: 25px;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	
+}
+
+nav {
+	padding-bottom: 30px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+
+li.nav {
+	display: inline;
+	padding-right: 15px;
+	margin-left: 15px;
+	border-right: 1px dotted grey;
+}
+
+li.nav:last-child {
+	border: none;
+	padding-right: 0px;
+}
+
+li.nav:hover {
+	font-weight: bolder;
+
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+}
+
+.content {
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 30px;
+	opacity: 0.8;
+	margin-bottom: 40px;
+	overflow: auto;
+
+}
+
+article {
+	width: 604px;
+	padding: 20px;
+	background-color: #ffffff;
+	float: left;
+	border: 3px solid #dddddd;
+
+}
+
+h2, h3 {
+	padding: 15px;
+    border-bottom: 3px solid #dddddd;
+    margin-bottom: 20px;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+h2{
+	font-size: 30px;
+}
+
+img.kingkong {
+	float: left;
+	margin: 10px 20px 0 0;
+	border: 3px solid grey;
+	width: 200px;
+	height: 150px;
+}
+
+img.kingkong:hover {
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
+}
+
+
+p.article {
+	line-height: 35px;
+}
+
+p.article:first-letter {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+aside {
+	width: 224px;
+	padding: 20px;
+	background-color: #ffffff;
+	float: right;
+	border: 3px solid #dddddd;
+	opacity: .9;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+ul#icon-img {
+	text-align: center;
+}
+
+li.icon-img {
+	display: inline-block;
+	margin-right: 10px;
+}
+img.icon {
+	width: 60px;
+	height: 60px;
+}
+
+li.icon-img:hover {
+	border: 3px dotted grey;
+}
+
+.break {
+	clear: both;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	padding: 30px 0 30px 0;
+	background: #666666;
+	border-top: 5px solid #4aaaa5;
+	opacity: 0.8;
+	bottom: 0;
+
+}
+p.footer {
+	color: lightgrey;
+	font-size: 10px;
+}
+
+input {
+	font-size: 13px;
+	width: 100%;
+	margin: 5px 0 10px 0;
+	padding: 5px 0 5px 0px;
+}
+
+textarea {
+	width: 100%;
+	margin-top: 10px;
+	padding: 5px 0 250px 0;
+	border-color: #dddddd;
+	font-size: 13px;
+}
+
+.btn {
+	padding: 10px 30px;
+	background-color: #4aaaa5;
+	color: white;
+	border: none;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+
+div.portfolio {
+	position: relative;
+	border: 2px solid darkgrey;
+	width: 280px;
+	height: 230px;
+	margin-bottom: 40px;
+
+
+}
+
+h4 {
+	text-align: center;
+	width: 250px;
+	position: absolute;
+	padding: 15px;
+	background-color: #4aaaa5;
+	color: white;
+	bottom: 10px;
+	font-size: 20px;
+	opacity: 0.9;
+}
+
+#business, #transportation, #nighlife {
+	float: left;
+}
+
+#applications, #travel {
+	float: right;
+}
+
+div.portfolio:hover {
+	border: 3px dotted red;
+}
+
+
+@media screen and (max-width: 960px){
+	
+	.header {
+		max-width: 70%;
+	}
+	.content {
+		max-width: 70%;
+	}
+	article {
+		max-width: 50%;
+	}
+
+	img.kingkong {
+		width: 90%;
+		height: 90%;
+		margin: 0 0 10px 15px;	
+	}
+
+	aside {
+		max-width: 30%;
+	}
+
+	h3 {
+	font-size: 100%;
+	}
+
+	img.icon {
+		width: 45px;
+		height: 45px;
+	}
+
+	li.icon-img {
+		width: 45px;
+		height: 45px;
+	}
+	h1 {
+		width: 45%;
+	}
+
+	nav {
+		width: 40%
+	}
+
+	
+}
