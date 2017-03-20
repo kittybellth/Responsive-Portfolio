@@ -3,7 +3,8 @@ body {
 	background-size: cover;
    	background-repeat:repeat;
 	color: #777777;
-	height: 100%
+	min-height: 100%;
+	min-width: 100%;
 }
 
 p, li, label, input, button{
@@ -176,6 +177,8 @@ p.footer {
 	font-size: 10px;
 }
 
+/*Contact Page*/
+
 input {
 	font-size: 13px;
 	width: 100%;
@@ -200,6 +203,7 @@ textarea {
 	border-radius: 5px;
 }
 
+/*Portfolio Page*/
 
 div.portfolio {
 	position: relative;
@@ -235,8 +239,15 @@ div.portfolio:hover {
 	border: 3px dotted red;
 }
 
+img.img-portfolio {
+	width: 280px;
+	height: 230px;
+}
 
-@media screen and (max-width: 960px){
+
+/*Media queries*/
+
+@media screen and (max-width: 980px){
 	
 	.header {
 		max-width: 70%;
@@ -258,8 +269,14 @@ div.portfolio:hover {
 		max-width: 30%;
 	}
 
+	h1 {
+		width: auto;
+		max-width: 100%;
+	}
+
 	h3 {
-	font-size: 100%;
+		font-size: 100%;
+
 	}
 
 	img.icon {
@@ -271,13 +288,157 @@ div.portfolio:hover {
 		width: 45px;
 		height: 45px;
 	}
+
+	li.nav {
+		padding-right: 5px;
+		margin-left: 5px;
+	}
+
 	h1 {
-		width: 45%;
+		max-width: 45%;
+
 	}
 
 	nav {
-		width: 40%
+		max-width: 40%;
 	}
 
+	#business, #transportation, #nighlife, #applications, #travel {
+		float: none;
+	}
+
+	textarea {
+		padding: 5px 0 200px 0;
+	}
+}
+
+@media screen and (max-width: 840px){
+	.header {
+		width: auto;
+		max-width: 95%;
+	}
+	.content {
+		width: auto;
+		max-width: 95%;
+	}
+	article {
+		width: auto;
+		max-width: 100%;
+		float: none;
+
+	}
+
+	h1 {
+		width: auto;
+		max-width: 100%;
+	}
+
+	img.kingkong {
+		width: 45%;
+		height: 45%;
+		float: left;
+		margin: 0 15px 0 0;
+	}
+
+	aside {
+		width: auto;
+		margin-top: 20px;
+		max-width: 100%;
+		float: none;
+	}
+
+	ul#icon-img {
+		text-align: left;
+	}
+
+	img.icon {
+		width: 50px;
+		height: 50px;
+	}
+
+	li.icon-img {
+		width: 50px;
+		height: 50px;
+	}
+
+	#business, #transportation, #nighlife {
+		float: left;
+	}
+
+	#applications, #travel {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 640px){
 	
+	.header {
+		position: static;
+		overflow: auto;
+		max-height: 100%;
+		height: auto;
+		width: auto;
+		max-width: 100%;
+		text-align: center;
+
+	}
+
+	h1 {
+		width: auto;
+		max-width: 100%;
+		position: static;
+
+
+	}
+	nav {
+		width: auto;
+		max-width: 100%;
+		position: static;
+		padding: 25px;
+	}
+
+	ul {
+		width: auto;
+		max-width: 100%;
+	}
+
+	li.nav {
+		width: auto;
+		max-width: 100%;
+		padding-right: 65px;
+		margin-left: 65px;
+	}
+	
+	img.kingkong {
+		width: auto;
+		max-width: 100%;
+	}
+	#business, #transportation, #nighlife, #applications, #travel {
+		float: none;
+
+	}
+	div.portfolio {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+	
+	}
+
+	img.img-portfolio {
+		width: 100%;
+		height: auto;
+
+	}
+
+	h4 {
+		width: 94.5%;
+		max-width: auto;
+	}
+		
+	}
+	
+
+	
+
+
 }
