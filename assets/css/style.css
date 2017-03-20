@@ -1,7 +1,7 @@
 body {
 	background-image: url("http://wallpaper-gallery.net/images/background-image/background-image-23.jpg");
 	background-size: cover;
-   	background-repeat:repeat;
+   	background-repeat:no-repeat;
 	color: #777777;
 	min-height: 100%;
 	min-width: 100%;
@@ -405,40 +405,40 @@ img.img-portfolio {
 	li.nav {
 		width: auto;
 		max-width: 100%;
-		padding-right: 65px;
-		margin-left: 65px;
+		padding-right: 5%;
+		margin-left: 5%;
 	}
 	
 	img.kingkong {
 		width: auto;
 		max-width: 100%;
+		height: auto;
 	}
 	#business, #transportation, #nighlife, #applications, #travel {
 		float: none;
 
+
 	}
 	div.portfolio {
-		width: 100%;
+		width: auto;
 		max-width: 100%;
 		height: auto;
+		max-height: 100%;
+		overflow: hidden;
 	
 	}
 
 	img.img-portfolio {
-		width: 100%;
+		width:auto;
+		max-width: 100%;
 		height: auto;
+		max-height: 100%;
 
 	}
 
 	h4 {
-		width: 94.5%;
-		max-width: auto;
+		width: 95%;
+		max-width: 100%;
+
 	}
-		
-	}
-	
-
-	
-
-
 }
