@@ -170,7 +170,7 @@ li.icon-img:hover {
 }
 
 .push {
-	height: 115px;
+	height: 118px;
 }
 
 footer {
@@ -180,8 +180,8 @@ footer {
 	background: #666666;
 	border-top: 5px solid #4aaaa5;
 	opacity: 0.8;
-
 }
+
 p.footer {
 	color: lightgrey;
 	font-size: 10px;
