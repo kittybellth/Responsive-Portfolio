@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Homework that focuses on using Bootstrap frammwork builds the website that looks like basic-portfolio
+Homework that focuses on building responsive website from basic portfolio using @media query 
